@@ -1,5 +1,6 @@
-Play 2.5 Macwire DI
-=================================
+[<img src="https://img.shields.io/travis/playframework/play-scala-macwire-di-example.svg"/>](https://travis-ci.org/playframework/play-scala-macwire-di-example)
+
+# play-scala-macwire-di-example
 
 This is an example project for setting up Play 2.5 with Macwire.
 
