@@ -1,4 +1,4 @@
-name := """macwire-di"""
+name := """play-scala-macwire-di-example"""
 
 version := "1.0-SNAPSHOT"
 

@@ -1,4 +1,7 @@
 language: scala
+dist: trusty
+sudo: true
+group: beta
 scala:
 - 2.11.8
 jdk:
@@ -6,6 +9,7 @@ jdk:
 cache:
   directories:
   - "$HOME/.ivy2/cache"
+  - "$HOME/.sbt/boot/"
 before_cache:
 - rm -rf $HOME/.ivy2/cache/com.typesafe.play/*
 - rm -rf $HOME/.ivy2/cache/scala_*/sbt_*/com.typesafe.play/*

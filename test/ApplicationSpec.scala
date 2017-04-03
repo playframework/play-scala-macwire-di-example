@@ -1,16 +1,13 @@
 import org.scalatestplus.play.PlaySpec
-import play.api.ApplicationLoader.Context
 import play.api.test.Helpers._
 import play.api.test._
 
 /**
-  * Add your spec here.
-  * You can mock out a whole application including requests, plugins etc.
-  * For more information, consult the wiki.
-  */
-class ApplicationSpec extends PlaySpec with OneAppPerTestWithComponents[GreetingComponents] {
-
-  override def createComponents(context: Context) = new GreetingComponents(context)
+ * Add your spec here.
+ * You can mock out a whole application including requests, plugins etc.
+ * For more information, consult the wiki.
+ */
+class ApplicationSpec extends PlaySpec with GreetingOneAppPerTest {
 
   "Routes" should {
 
