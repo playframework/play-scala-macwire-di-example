@@ -3,11 +3,9 @@ import play.api.ApplicationLoader.Context
 
 class SeleniumSpec
   extends PlaySpec
-  with OneServerPerTestWithComponents[GreetingComponents]
+  with GreetingOneServerPerTest
   with OneBrowserPerTest
   with HtmlUnitFactory {
-
-  override def createComponents(context: Context) = new GreetingComponents(context)
 
   "SeleniumSpec" should {
 
